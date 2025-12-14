@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Verify Mail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="email-verify.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <h2>Verify your mail</h2>
+
+      <p class="subtitle">
+        We sent a reset link to <strong>support@woohl.com</strong>.
+        Enter the 6 digit code sent to your mail
+      </p>
+
+      <form>
+        <div class="otp-box">
+          <input type="text" maxlength="1">
+          <input type="text" maxlength="1">
+          <input type="text" maxlength="1">
+          <input type="text" maxlength="1">
+          <input type="text" maxlength="1">
+          <input type="text" maxlength="1">
+        </div>
+
+        <button onclick="passwordResetSuccess(event)" type="button" class="btn" >Verify code</button>
+      </form>
+    </div>
+  </div>
+
+  
+<script>
+    function passwordResetSuccess(){
+        window.location.href = "passwordResetSuccess.html";
+    };
+</script>
+</body>
+</html>

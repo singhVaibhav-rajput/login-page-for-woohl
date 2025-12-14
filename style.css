@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.card {
+    width: 380px;
+    background: #fff;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.sighIn a { 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.newUser a {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.tabs span.active {
+    color: #000;
+    font-weight: 600;
+}
+
+label {
+    font-size: 13px;
+    margin-bottom: 6px;
+    display: block;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-bottom: 14px;
+    
+}
+
+input:focus {
+    border-color: #f08a4b;
+}
+
+.terms {
+    font-size: 11px;
+    color: #777;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+.checkbox input {
+    accent-color: #f08a4b;
+}
+
+.btn {
+    width: 100%;
+    background: #f08a4b;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #e17839;
+}
+
+.or {
+    text-align: center;
+    margin: 14px 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.google-btn {
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.google-btn img {
+    width: 18px;
+}
